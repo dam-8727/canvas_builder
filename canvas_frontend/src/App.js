@@ -196,7 +196,8 @@ function App() {
       const canvas = document.querySelector('canvas');
       const dataUrl = canvas.toDataURL('image/jpeg', 0.8);
       
-      const response = await fetch('/canvas/export-pdf', {
+      const API_BASE = process.env.REACT_APP_API_BASE || '';
+      const response = await fetch(`${API_BASE}/canvas/export-pdf`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
