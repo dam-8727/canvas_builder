@@ -12,7 +12,7 @@ A full-stack web application that lets users compose shapes, images, and text on
 | Layer | URL |
 |-------|-----|
 | Frontend | <https://canvabuilder.netlify.app/> |
-| Backend (health) | <https://canvas-backend-vv91.onrender.com> |
+| Backend  | <https://canvas-backend-vv91.onrender.com> |
 
 ---
 
