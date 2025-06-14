@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "react-router-dom": "^7.6.2"
+  },
+  "scripts": {
+    "start": "npm --prefix canvas_backend start",
+    "start:frontend": "npm --prefix canvas_frontend start",
+    "build": "npm --prefix canvas_frontend run build"
   }
 }
