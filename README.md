@@ -44,7 +44,7 @@ canvas_builder/
 
 1. **Clone** the repo:
    ```bash
-   git clone https://github.com/<your-user>/canvas_builder.git
+   git clone https://github.com/dam-8727/canvas_builder.git
    cd canvas_builder
    ```
 
